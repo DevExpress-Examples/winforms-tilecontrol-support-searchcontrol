@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[CustomTileControl.cs](./CS/CustomTileControl.cs) (VB: [CustomTileControl.vb](./VB/CustomTileControl.vb))**
+* [TileSearchProvider.cs](./CS/TileSearchProvider.cs) (VB: [TileSearchProvider.vb](./VB/TileSearchProvider.vb))
+<!-- default file list end -->
 # How to use SearchControl for TileControl
 
 
