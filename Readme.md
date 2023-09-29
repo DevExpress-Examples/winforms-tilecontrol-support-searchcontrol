@@ -12,10 +12,10 @@ This example creates a custom tile control that implements the `ISearchControlCl
 
 Implement the following members:
 
- - `SetSearchControl` - this method is invoked when you attach/detach your object from the `SearchControl.Client` property.
- - `IsAttachedToSearchControl` - this property specifies whether your object is attached to the SearchControl.
- - `ApplyFindFilter` - this method is called to filter items. You should implement your own logic to filter items.
- - `CreateSearchProvider` - this method must return a `SearchControlProviderBase` descendant. This provider contains `SearchText` and `FilterCondition` obtained from the `RepositoryItemSearchControl.FilterCondition` property.
+ - `SetSearchControl` - This method is invoked when you attach/detach your object to/from the `SearchControl.Client` property.
+ - `IsAttachedToSearchControl` - This property specifies whether your object is attached to the SearchControl.
+ - `ApplyFindFilter` - This method is called to filter items. You should implement your own logic to filter items.
+ - `CreateSearchProvider` - This method must return a `SearchControlProviderBase` descendant. This provider contains `SearchText` and `FilterCondition` obtained from the `RepositoryItemSearchControl.FilterCondition` property.
 
 You should also override the `SearchControlProviderBase.GetCriteriaInfoCore` method to return a `SearchInfoBase` descendant. This object is passed to the `ApplyFindFilter` method as a parameter.
 
